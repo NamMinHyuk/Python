@@ -59,4 +59,6 @@ for i in range(5 ,0 ,-1):
     print("*" *(5 - i +1) ,end='')
     print("*" *(5 -i) ,end='')
     print(" " *int(i-1))
-
+    
+# for i in range(5):
+#    print(' ' * (4 - i) + '*' * (2 * i + 1))

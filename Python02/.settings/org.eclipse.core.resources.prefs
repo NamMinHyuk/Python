@@ -1,2 +1,7 @@
 eclipse.preferences.version=1
+encoding//crawling/covid/covid19.py=utf-8
+encoding//crawling/instagram/insta01.py=utf-8
+encoding//crawling/instagram/insta02.py=utf-8
 encoding//crawling/naver/movie.py=utf-8
+encoding//crawling/naver/webtoon.py=utf-8
+encoding//crawling/star/starbucks.py=utf-8

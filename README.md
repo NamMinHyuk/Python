@@ -31,3 +31,14 @@ w : 쓰기 (기존 내용 덮어쓰기)
 a : 쓰기 (기존 내용 이어서 쓰기)       
 x : 새로운 파일 만들어서 쓰기              
 t / b : text / binary (default : t)       
+
+          
+## Python-Study 3일차  
+
+        
+***   
+       
+firefox : dom 탐색하기 편하다       
+      
+zip : list 두개를 하나의 dict로 만든다. ex) sido_dict = dict(zip(sido_code, sido name))      
+ensure_ascii=False 한글      

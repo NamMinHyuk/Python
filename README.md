@@ -42,3 +42,13 @@ firefox : dom 탐색하기 편하다
       
 zip : list 두개를 하나의 dict로 만든다. ex) sido_dict = dict(zip(sido_code, sido name))      
 ensure_ascii=False 한글      
+
+          
+## Python-Study 4일차  
+
+        
+***   
+       
+@app.route('/', methods=['GET', 'POST'])  -> get,post로 root로 왔을 때      
+def 함수명():      
+CORS 에러 - 알아둬야함!!      

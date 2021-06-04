@@ -5,7 +5,7 @@
       
 파이썬 가상환경에 패키지 관리한다      
 python -m venv basic        : basic 파일 만듦            
-\basic\Scripts\activate.bat : basic 들어가는법      
+.\basic\Scripts\activate.bat : basic 들어가는법      
 deactivate                  : basic 나오는법      
       
 eclipse에 PyDev로 사용중이다       

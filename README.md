@@ -51,4 +51,17 @@ ensure_ascii=False 한글
        
 @app.route('/', methods=['GET', 'POST'])  -> get,post로 root로 왔을 때      
 def 함수명():      
-CORS 에러 - 알아둬야함!!      
+CORS 에러 - 알아둬야함!!    
+    
+          
+## Python-Study 5일차      
+    
+        
+***   
+    
+mongo db + python    
+pymongo install     
+from pymongo import MongoClient     
+client = MongoClient('localhost' , 27017)    
+db = client.test    
+collection = db.score    

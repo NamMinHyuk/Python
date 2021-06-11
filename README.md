@@ -65,3 +65,10 @@ from pymongo import MongoClient
 client = MongoClient('localhost' , 27017)    
 db = client.test    
 collection = db.score    
+      
+## WordCloud      
+           
+      
+***      
+      
+json형태의 파일을 가져와 배열에 담아 png 파일로 만든다.  

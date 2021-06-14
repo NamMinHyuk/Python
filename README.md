@@ -71,4 +71,35 @@ collection = db.score
       
 ***      
       
-json형태의 파일을 가져와 배열에 담아 png 파일로 만든다.  
+anaconda 가상환경 
+conda create -n 가상환경명 python openssl - 가상환경 생성
+conda activate 가상환경명 - 가상환경 들어가기 
+conda deactivate 가상환경명 - 가상환경 나오기
+
+json형태의 파일을 가져와 배열에 담아 png 파일로 만들 수 있다.    
+      
+## Django      
+           
+      
+***      
+      
+pip install django - django 설치      
+* window powershell -> Set-ExecutionPolicy Unrestricted    -> A       
+django-admin startproject mysite - 프로젝트 만들기       
+cd mysite      
+python manage.py runserver localhost:8888 - 서버 가동 (포트번호 포함가능)      
+python manage.py startapp hello02 - hello02라는 app 생성      
+      
+manage.py -> project 관리       
+asgi.py -> 비동기통신 지원하는 python interface      
+settings.py -> application 환경 설정      
+urls.py -> URLconf      
+wsgi.py -> 비동기 통신 지원이 어려워서 asgi로 대체      
+      
+MVT      
+Model - DataBase 연동  ORM(Object Realtion Mapping) - 객체랑 관계형 디비를 매핑해준다      
+View - Data 구성 (business logic)      
+Template - Data 표현 (presentation layer)      
+* controller 는 django framework 자체이다      
+      
+Django에 대해 더 배우고 싶으면 vue.js node.js react.js 프론트랑 연결 해보고 Flask 사용해보기!      

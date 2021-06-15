@@ -103,3 +103,21 @@ Template - Data 표현 (presentation layer)
 * controller 는 django framework 자체이다      
       
 Django에 대해 더 배우고 싶으면 vue.js node.js react.js 프론트랑 연결 해보고 Flask 사용해보기!      
+     
+{{}} -   <%= %>     
+{% %} -   <% %>     
+{% for i in numbers %}     
+{% endfor %}     
+endif도 써야함     
+     
+sqlite  - manage.py에 sqldiff,sqlite3,sqlite3_analyzer 넣고      
+python manage.py migrate     
+sqlite3 db.sqlite3     
+.quit     
+python manage.py makemigrations dbtest     
+python manage.py sqlmigrate dbtest 0001     
+python manage.py migrate     
+sqlite3 db.sqlite3     
+.table      
+.schema dbtest_myboard     
+.quit     

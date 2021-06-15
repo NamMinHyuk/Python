@@ -11,3 +11,15 @@ def var01(request):
 def var02(request):
     dct = {'class':'qclass' , 'name':'홍길동' }
     return render(request, 'variable02.html', {'dct': dct})
+
+def forLoop(request):
+    return render(request, 'for.html' ,{'numbers': range(1, 10)})
+
+def if01(request):
+    return render(request, 'if01.html',{'user': {'id':'qclass', 'name':'teacher'}})
+
+def if02(request):
+    return render(request, 'if02.html', {'role': 'manager'})
+
+def href(request):
+    return render(request, 'href.html')
